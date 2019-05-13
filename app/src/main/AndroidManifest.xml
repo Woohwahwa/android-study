@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ch05_LinearLayout_01"></activity>
+        <activity android:name=".Ch06_RelativeLayout_01"></activity>
+        <activity android:name=".Ch05_LinearLayout_03" />
+        <activity android:name=".Ch05_LinearLayout_02" />
+        <activity android:name=".Ch05_LinearLayout_01" />
         <activity android:name=".Ch04_ViewGroup_02" />
         <activity android:name=".Ch04_ViewGroup_01">
             <intent-filter>
