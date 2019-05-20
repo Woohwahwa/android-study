@@ -9,13 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ch06_FrameLayout">
+        <activity android:name=".Ch07_OverlapLayout_01">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Ch07_TableLayout" />
+        <activity android:name=".Ch06_FrameLayout"></activity>
         <activity android:name=".Ch06_AbsoluteLayout" />
         <activity android:name=".Ch06_RelativeLayout_03" />
         <activity android:name=".Ch06_RelativeLayout_02" />
