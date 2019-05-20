@@ -56,4 +56,4 @@
             android:text="Gravity Test"
             android:textSize="10dp" />
     </LinearLayout>
-</android.support.constraint.ConstraintLayout><?xml version="1.0" encoding="utf-8"?>
+</android.support.constraint.ConstraintLayout>

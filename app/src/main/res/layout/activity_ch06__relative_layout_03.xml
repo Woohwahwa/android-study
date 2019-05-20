@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch06_RelativeLayout_03">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ch06__cindy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:background="#00D8FF"
+            android:text="Cindy"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/ch06__android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/ch06__cindy"
+            android:text="Android"
+            android:textColor="#1DDB16"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ch06__service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ch06__cindy"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="10dp"
+            android:text="SERVICE"
+            android:textSize="20sp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@id/ch06__service"
+            android:layout_toLeftOf="@id/ch06__service"
+            android:text="MOBILE"
+            android:textSize="30sp"
+            android:typeface="serif" />
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
