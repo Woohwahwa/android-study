@@ -9,15 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ch07_OverlapLayout_01">
+        <activity android:name=".Ch08_Canvas_03">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Ch08_Canvas_02" />
+        <activity android:name=".Ch08_Canvas_01"></activity>
+        <activity android:name=".Ch07_ChangeAttribute_03" />
+        <activity android:name=".Ch07_ChangeAttribute_02" />
+        <activity android:name=".Ch07_ChangeAttribute_01" />
+        <activity android:name=".Ch07_OverlapLayout_02" />
+        <activity android:name=".Ch07_OverlapLayout_01" />
         <activity android:name=".Ch07_TableLayout" />
-        <activity android:name=".Ch06_FrameLayout"></activity>
+        <activity android:name=".Ch06_FrameLayout" />
         <activity android:name=".Ch06_AbsoluteLayout" />
         <activity android:name=".Ch06_RelativeLayout_03" />
         <activity android:name=".Ch06_RelativeLayout_02" />

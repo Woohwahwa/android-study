@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ch07_ChangeAttribute_02">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/ch07_layoutid_10"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/ch07_textid_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Text1"
+                android:textSize="20dp"
+                android:typeface="serif" />
+
+            <ImageView
+                android:id="@+id/ch07_imageid_10"
+                android:layout_width="200dp"
+                android:layout_height="700dp"
+                android:src="@drawable/ericmuhr" />
+
+            <Button
+                android:id="@+id/ch07_buttonid_10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUTTON" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
