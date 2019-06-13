@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">androidStudy</string>
+    <string name="ptext">prompt text</string>
 </resources>

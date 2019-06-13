@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.androidstudy">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,15 +11,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ch08_Canvas_03">
+        <activity android:name=".Ch13_Prompt"></activity>
+        <activity android:name=".Ch13_ListView_01">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Ch12_Intent" />
+        <activity
+            android:name=".Ch12_Activity_01_1"
+            android:label="Ch12_Activity_01_1" />
+        <activity android:name=".Ch12_Activity_01"></activity>
+        <activity android:name=".Ch11_Timer" />
+        <activity android:name=".Ch11_TypeInput" />
+        <activity android:name=".Ch10_KeyEvent" />
+        <activity android:name=".Ch10_Touch" />
+        <activity android:name=".Ch10_EventListener" />
+        <activity android:name=".Ch09_EventListenerView" />
+        <activity android:name=".Ch09_EventListener" />
+        <activity android:name=".Ch09_CallbackMethod" />
+        <activity android:name=".Ch08_Sound" />
+        <activity android:name=".Ch08_Toast" />
+        <activity android:name=".Ch08_Canvas_04" />
+        <activity android:name=".Ch08_Canvas_03" />
         <activity android:name=".Ch08_Canvas_02" />
-        <activity android:name=".Ch08_Canvas_01"></activity>
+        <activity android:name=".Ch08_Canvas_01" />
         <activity android:name=".Ch07_ChangeAttribute_03" />
         <activity android:name=".Ch07_ChangeAttribute_02" />
         <activity android:name=".Ch07_ChangeAttribute_01" />
